@@ -1,0 +1,13 @@
+.currency-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.currency-input{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}

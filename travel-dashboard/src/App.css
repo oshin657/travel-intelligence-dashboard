@@ -1,0 +1,42 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.travel-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.city-input{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.city-input input{
+  flex: 1;
+}
+
+.display-weather{
+  text-align: center;
+  padding: 50px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, 
+    #87CEEB 0%,    
+    #E0F7FA 50%,    
+    #B3E5FC 100%    
+  )
+}
+
+.display-currency {
+   background: linear-gradient(135deg, #1a2a6c, #3a7bd5);
+  color: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 5px;
+}

@@ -1,0 +1,18 @@
+.weather-details img{
+    width: 80px;
+    height: 80px;
+}
+
+.weather-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.description{
+    color: rebeccapurple;
+    font-size: large;
+    text-decoration: underline;
+}
